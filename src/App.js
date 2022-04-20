@@ -37,7 +37,7 @@ function App() {
      </form>
 
      <ul>
-       {todos. map(todo => (
+       {todos.map(todo => (
          <Todo text={todo}/>
          //<li>{todo}</li>
        ))}
